@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "cookiecutter-poetry"
+name = "cookiecutter-pypackage"
 version = "0.1.0"
 description = "A python cookiecutter application to create a new python project that uses poetry to manage its dependencies."
 authors = ["Xavier Duran <xavier.duran@gmail.com>"]
-repository = "https://github.com/xdurana/cookiecutter-poetry"
-documentation = "https://xdurana.github.io/cookiecutter-poetry/"
+repository = "https://github.com/xdurana/cookiecutter-pypackage"
+documentation = "https://xdurana.github.io/cookiecutter-pypackage/"
 readme = "README.md"
 keywords = ['cookiecutter', 'template', 'poetry']
 packages = [

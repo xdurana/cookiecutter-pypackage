@@ -28,7 +28,7 @@ made on the `main` branch. In addition, `on-release-main.yml` also
 publishes the project to Pypi or Artifactory if `publish_to` is set to
 `"pypi"` or `"artifactory"`, and it builds and deploys the documentation
 if `mkdocs` is set to `"y"`. To learn more about these features,
-see [Publishing to PyPi or Artifactory](./publishing.md) and [Documentation with MkDocs](./mkdocs.md) 
+see [Publishing to PyPi or Artifactory](./publishing.md) and [Documentation with MkDocs](./mkdocs.md)
 
 Additionally, all workflows check for compatibility with multiple Python
 versions if `tox` is set to `"y"`.
@@ -41,7 +41,3 @@ a new release`. If you fail to find the button, you could also directly visit
 
 Give your release a title, and add a new tag in the form `*.*.*` where the
 `*`'s are alphanumeric. To finish, press `Publish release`.
-
-## Example CI/CD Pipeline
-
-[![Example pipeline](https://raw.githubusercontent.com/xdurana/cookiecutter-poetry/main/static/images/pipeline.png)](https://raw.githubusercontent.com/xdurana/cookiecutter-poetry/main/static/images/pipeline.png)

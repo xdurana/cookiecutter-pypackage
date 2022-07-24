@@ -1,6 +1,6 @@
-site_name: cookiecutter-poetry
-repo_url: https://github.com/xdurana/cookiecutter-poetry
-site_url: https://xdurana.github.io/cookiecutter-poetry
+site_name: cookiecutter-pypackage
+repo_url: https://github.com/xdurana/cookiecutter-pypackage
+site_url: https://xdurana.github.io/cookiecutter-pypackage
 site_description: A cookiecutter template for Python projects that use Poetry for its dependency management
 site_author: Xavier Duran
 

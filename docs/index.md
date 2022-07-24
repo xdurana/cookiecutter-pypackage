@@ -1,16 +1,16 @@
 
-# Cookiecutter Poetry
+# Cookiecutter PyPackage
 
-[![Release](https://img.shields.io/github/v/release/{{cookiecutter.author_github_handle}}/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![Build status](https://img.shields.io/github/workflow/status/{{cookiecutter.author_github_handle}}/cookiecutter-poetry/merge-to-main)](https://img.shields.io/github/workflow/status/{{cookiecutter.author_github_handle}}/cookiecutter-poetry/merge-to-main)
-[![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![License](https://img.shields.io/github/license/{{cookiecutter.author_github_handle}}/cookiecutter-poetry)](https://img.shields.io/github/license/{{cookiecutter.author_github_handle}}/cookiecutter-poetry)
+[![Release](https://img.shields.io/github/v/release/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage)](https://pypi.org/project/cookiecutter-pypackage/)
+[![Build status](https://img.shields.io/github/workflow/status/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage/merge-to-main)](https://img.shields.io/github/workflow/status/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage/merge-to-main)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-pypackage)](https://pypi.org/project/cookiecutter-pypackage/)
+[![License](https://img.shields.io/github/license/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage)](https://img.shields.io/github/license/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage)
 
 This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 repository to generate the file structure for a Python project that uses
-[Poetry](https://python-poetry.org/) for its dependency management. 
+[Poetry](https://python-poetry.org/) for its dependency management.
 
-A project generated with ``cookiecutter-poetry`` supports the following features:
+A project generated with ``cookiecutter-pypackage`` supports the following features:
 
 - [Poetry](https://python-poetry.org/), obviously.
 - CI/CD with [GitHub Actions](https://github.com/features/actions)
@@ -23,7 +23,7 @@ A project generated with ``cookiecutter-poetry`` supports the following features
 - Compatibility testing for multiple versions of Python with [Tox](https://tox.wiki/en/latest/)
 - Containerization with [Docker](https://www.docker.com/)
 
-An example of a repository generated with this package can be found [here](https://github.com/{{cookiecutter.author_github_handle}}/cookiecutter-poetry-example).
+An example of a repository generated with this package can be found [here](https://github.com/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage-example).
 
 ## Quickstart
 
@@ -31,7 +31,7 @@ On your local machine, navigate to the directory in which you want to
 create a project directory, and run the following two commands:
 
 ``` bash
-pip install cookiecutter-poetry 
+pip install cookiecutter-pypackage
 ccp
 ```
 
@@ -40,7 +40,7 @@ Github repository to the `cookiecutter` command:
 
 ``` bash
 pip install cookiecutter
-cookiecutter https://github.com/{{cookiecutter.author_github_handle}}/cookiecutter-poetry.git
+cookiecutter https://github.com/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage.git
 ```
 
 Then run the following commands, replacing `<project-name>`, with the
@@ -58,13 +58,13 @@ git push -u origin main
 
 Finally, install the environment with `make install`.
 
-You are now ready to start development on your project! The CI/CD pipeline will be triggered when you open a pull request, merge to main, or when you create a new release. 
+You are now ready to start development on your project! The CI/CD pipeline will be triggered when you open a pull request, merge to main, or when you create a new release.
 
-To finalize the set-up for publishing to PyPi or Artifactory, see [here](./features/publishing.md#set-up-for-pypi). For activating the automatic documentation with MkDocs, see [here](./features/mkdocs.md#enabling-the-documentation-on-github). 
+To finalize the set-up for publishing to PyPi or Artifactory, see [here](./features/publishing.md#set-up-for-pypi). For activating the automatic documentation with MkDocs, see [here](./features/mkdocs.md#enabling-the-documentation-on-github).
 
 ## Acknowledgements
 
 This project is partially based on [Audrey
 Feldroy's](https://github.com/audreyfeldroy) great
 [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) and [
-Florian Maas](https://github.com/fpgmaas/) great [cookiecutter-pypackage](https://github.com/fpgmaas/cookiecutter-poetry).
+Florian Maas](https://github.com/fpgmaas/) great [cookiecutter-pypackage](https://github.com/fpgmaas/cookiecutter-pypackage).
