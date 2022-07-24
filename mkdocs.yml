@@ -1,6 +1,6 @@
-site_name: cookiecutter-poetry
-repo_url: https://github.com/xdurana/cookiecutter-poetry
-site_url: https://xdurana.github.io/cookiecutter-poetry
+site_name: cookiecutter-pypackage
+repo_url: https://github.com/xdurana/cookiecutter-pypackage
+site_url: https://xdurana.github.io/cookiecutter-pypackage
 site_description: A cookiecutter template for Python projects that use Poetry for its dependency management
 site_author: Xavier Duran
 
@@ -12,12 +12,13 @@ nav:
     - Linting with flake8: features/linting.md
     - Makefile: features/makefile.md
     - Dependency management with Poetry: features/poetry.md
-    - Publishing to PyPi or Artifactory: features/publishing.md
+    - Publishing to PyPi: features/publishing.md
     - Testing with Pytest: features/pytest.md
     - Documentation with MkDocs: features/mkdocs.md
     - Compatibility testing with Tox: features/tox.md
     - Static type checking with mypy: features/mypy.md
     - Containerization with Docker: features/docker.md
+    - Developing inside a Container in VSCode: features/vscode.md
   - Tutorial: tutorial.md
   - Prompt Arguments: prompt_arguments.md
 plugins:

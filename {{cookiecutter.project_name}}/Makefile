@@ -1,6 +1,6 @@
 install: ## Install the poetry environment
 	@echo "🚀 Creating virtual environment using pyenv and poetry"
-	@poetry install	
+	@poetry install
 	@poetry shell
 
 format: ## Format code using isort and black.
@@ -49,16 +49,6 @@ publish: ## publish a release to pypi.
 	@poetry publish --dry-run
 	@echo "🚀 Publishing."
 	@poetry publish
-
-build-and-publish: build publish ## Build and publish.
-{%- elif cookiecutter.publish_to == "artifactory" %}
-
-publish: ## Publish to the Artifactory repository using poetry. Requires ARTIFACTORY_TOKEN for DPS-FF-ILO to be set.
-	@echo "🚀 Publishing: Dry run."
-	@poetry config repositories.artifactory $(ARTIFACTORY_URL)
-	@poetry publish --repository artifactory --username $(ARTIFACTORY_USERNAME) --password $(ARTIFACTORY_PASSWORD) --dry-run
-	@echo "🚀 Publishing."
-	@poetry publish --repository artifactory --username $(ARTIFACTORY_USERNAME) --password $(ARTIFACTORY_PASSWORD)
 
 build-and-publish: build publish ## Build and publish.
 {%- endif%}

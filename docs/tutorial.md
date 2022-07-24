@@ -40,11 +40,11 @@ Replacing `3.9.7` with a version of your choosing.
 ## Step 3: Generate your project
 
 First, navigate to the directory in which you want the project to be
-created. Then, we need to install `cookiecutter-poetry` with the
+created. Then, we need to install `cookiecutter-pypackage` with the
 following command:
 
 ``` bash
-pip install cookiecutter-poetry
+pip install cookiecutter-pypackage
 ```
 
 Within the directory in which you want to create your project, run:
@@ -61,8 +61,8 @@ directly pass the URL to Github repository to the `cookiecutter`
 command:
 
 ``` bash
-pip install cookiecutter-poetry
-cookiecutter https://github.com/xdurana/cookiecutter-poetry.git
+pip install cookiecutter-pypackage
+cookiecutter https://github.com/xdurana/cookiecutter-pypackage.git
 ```
 
 ## Step 4: Set up your Github repository
@@ -104,10 +104,9 @@ poetry shell
 
 ## Step 7: Configure your repository secrets
 
-If you want to deploy your project to Pypi or Artifactory using the
+If you want to deploy your project to Pypi using the
 Github Actions, you will have to set some repository secrets. For
-instructions on how to do that, see [here](./features/publishing.md#set-up-for-pypi) for PyPi, or 
-[here](./features/publishing.md#set-up-for-artifactory) for Artifactory.
+instructions on how to do that, see [here](./features/publishing.md#set-up-for-pypi) for PyPi.
 
 ## Step 8: Create a new release
 
@@ -123,7 +122,7 @@ Give your release a title, and add a new tag in the form `*.*.*` where the
 In your repository, navigate to ``Settings > Code and Automation > Pages``. If you succesfully created a new release,
 you should see a notification saying `` Your site is ready to be published at https://<author_github_handle>.github.io/<project_name>/``.
 
-To finalize deploying your documentation, under ``Source``, select the branch ``gh-pages``. 
+To finalize deploying your documentation, under ``Source``, select the branch ``gh-pages``.
 
 ## Step 10: You're all set!
 
