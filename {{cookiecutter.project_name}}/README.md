@@ -23,11 +23,6 @@
 Create a new tag in the form ``*.*.*``.
 
 For more details, see [here](https://xdurana.github.io/cookiecutter-pypackage/releasing.html).
-{%- elif cookiecutter.publish_to == "artifactory" -%}
-- Add the `ARTIFACTORY_URL`, `ARTIFACTORY_USERNAME`, and `ARTIFACTORY_PASSWORD` to your projects secrets by visiting [this page](https://github.com/{{cookiecutter.author_github_handle}}/{{cookiecutter.project_name}}/settings/secrets/actions/new).
-- Create a [new release](https://github.com/{{cookiecutter.author_github_handle}}/{{cookiecutter.project_name}}/releases/new) on Github. Create a new tag in the form ``*.*.*``.
-
-For more details, see [here](https://xdurana.github.io/cookiecutter-pypackage/releasing.html).
 {%- endif %}
 
 ---

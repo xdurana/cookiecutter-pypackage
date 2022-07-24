@@ -16,7 +16,7 @@ A project generated with ``cookiecutter-pypackage`` supports the following featu
 - CI/CD with [GitHub Actions](https://github.com/features/actions)
 - Formatting with [black](https://pypi.org/project/black/) and [isort](https://pycqa.github.io/isort/index.html)
 - Linting with [flake8](https://flake8.pycqa.org/en/latest/)
-- Publishing to [Pypi](https://pypi.org) or [Artifactory](https://jfrog.com/artifactory) by creating a new release on GitHub
+- Publishing to [Pypi](https://pypi.org) by creating a new release on GitHub
 - Testing with [pytest](https://docs.pytest.org/en/7.1.x/)
 - Documentation with [MkDocs](https://www.mkdocs.org/)
 - Static type checking with [mypy](https://mypy.readthedocs.io/en/stable/)
@@ -61,7 +61,7 @@ Finally, install the environment with `make install`.
 
 You are now ready to start development on your project! The CI/CD pipeline will be triggered when you open a pull request, merge to main, or when you create a new release.
 
-To finalize the set-up for publishing to PyPi or Artifactory, see [here](./features/publishing.md#set-up-for-pypi). For activating the automatic documentation with MkDocs, see [here](./features/mkdocs.md#enabling-the-documentation-on-github).
+To finalize the set-up for publishing to PyPi, see [here](./features/publishing.md#set-up-for-pypi). For activating the automatic documentation with MkDocs, see [here](./features/mkdocs.md#enabling-the-documentation-on-github).
 
 ## Acknowledgements
 

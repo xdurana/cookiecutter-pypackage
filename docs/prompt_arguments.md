@@ -6,19 +6,19 @@ prompt values and their explanation are as follows:
 ---
 
 **author**
-    
+
  Your full name.
 
 **email**
-    
+
 Your email address.
 
 **author_github_handle**
-    
+
 Your github handle, i.e. `<handle>` in `https://github.com/<handle>`
 
 **project_name**
-    
+
 Your project name. Should be equal to the name of your repository
 and it should only contain alphanumeric characters and `-`'s.
 
@@ -43,11 +43,11 @@ and unittests.
 
 **publish_to**
 
-`"pypi"`, `"artifactory"`, or `"none"`. Adds functionality to the
+`"pypi"` or `"none"`. Adds functionality to the
 `Makefile` and Github workflows to make publishing your code as
 simple as creating a new release release on Github. For more info,
 see
-[Publishing to Pypi or Artifactory](./features/publishing.md).
+[Publishing to Pypi](./features/publishing.md).
 
 **mkdocs**
 
