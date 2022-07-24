@@ -24,6 +24,7 @@ repository to generate the file structure for a Python project that uses
 - Static type checking with [mypy](https://mypy.readthedocs.io/en/stable/)
 - Compatibility testing for multiple versions of Python with [Tox](https://tox.wiki/en/latest/)
 - Containerization with [Docker](https://www.docker.com/)
+- [Developing inside a Container in VSCode](https://code.visualstudio.com/docs/remote/containers)
 
 ## Quickstart
 

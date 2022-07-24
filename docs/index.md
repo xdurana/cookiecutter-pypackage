@@ -22,6 +22,7 @@ A project generated with ``cookiecutter-pypackage`` supports the following featu
 - Static type checking with [mypy](https://mypy.readthedocs.io/en/stable/)
 - Compatibility testing for multiple versions of Python with [Tox](https://tox.wiki/en/latest/)
 - Containerization with [Docker](https://www.docker.com/)
+- [Developing inside a Container in VSCode](https://code.visualstudio.com/docs/remote/containers)
 
 An example of a repository generated with this package can be found [here](https://github.com/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage-example).
 
