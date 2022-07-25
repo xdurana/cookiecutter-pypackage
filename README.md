@@ -9,7 +9,6 @@ repository to generate the file structure for a Python project that uses
 
 - **Documentation**: [Link](https://xdurana.github.io/cookiecutter-pypackage/)
 - **Example repository**: [Link](https://github.com/xdurana/cookiecutter-pypackage-example)
-- **PyPi**: [Link](https://pypi.org/project/cookiecutter-pypackage/)
 
 ## Features
 
