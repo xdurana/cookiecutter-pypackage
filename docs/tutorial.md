@@ -32,10 +32,10 @@ pyenv install --list
 Select a version and install it with
 
 ``` bash
-pyenv install -v 3.9.7
+pyenv install -v 3.9.12
 ```
 
-Replacing `3.9.7` with a version of your choosing.
+Replacing `3.9.12` with a version of your choosing.
 
 ## Step 3: Generate your project
 

@@ -1,4 +1,4 @@
-PYTHON_VERSION := 3.9.7
+PYTHON_VERSION := 3.9.12
 
 bake: ## bake without inputs and overwrite if exists.
 	@cookiecutter --no-input . --overwrite-if-exists
