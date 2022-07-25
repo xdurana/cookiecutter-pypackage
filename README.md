@@ -1,8 +1,7 @@
 # Cookiecutter PyPackage
 
-[![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-pypackage)](https://pypi.org/project/cookiecutter-pypackage/)
+[![Supported Python versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue)](https://www.python.org/downloads/)
 [![Docs](https://img.shields.io/badge/docs-gh--pages-blue)](https://xdurana.github.io/cookiecutter-pypackage/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/cookiecutter-pypackage)](https://img.shields.io/pypi/dm/cookiecutter-pypackage?style=flat-square)
 
 This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 repository to generate the file structure for a Python project that uses
@@ -10,7 +9,6 @@ repository to generate the file structure for a Python project that uses
 
 - **Documentation**: [Link](https://xdurana.github.io/cookiecutter-pypackage/)
 - **Example repository**: [Link](https://github.com/xdurana/cookiecutter-pypackage-example)
-- **PyPi**: [Link](https://pypi.org/project/cookiecutter-pypackage/)
 
 ## Features
 
@@ -73,4 +71,4 @@ For activating the automatic documentation with MkDocs, see
 This project is partially based on [Audrey
 Feldroy's](https://github.com/audreyfeldroy) great
 [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) and [
-Florian Maas](https://github.com/fpgmaas/) great [cookiecutter-pypackage](https://github.com/fpgmaas/cookiecutter-pypackage).
+Florian Maas](https://github.com/fpgmaas/) great [cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).

@@ -55,6 +55,10 @@ build-and-publish: build publish ## Build and publish.
 
 {%- if cookiecutter.mkdocs == "y" %}
 
+
+docs-deploy: ## Deploy documentation to GitHub Pages
+	@mkdocs gh-deploy
+
 docs-test: ## Test if documentation can be built without warnings or errors
 	@mkdocs build -s
 

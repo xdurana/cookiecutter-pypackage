@@ -1,10 +1,7 @@
 
 # Cookiecutter PyPackage
 
-[![Release](https://img.shields.io/github/v/release/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage)](https://pypi.org/project/cookiecutter-pypackage/)
-[![Build status](https://img.shields.io/github/workflow/status/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage/merge-to-main)](https://img.shields.io/github/workflow/status/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage/merge-to-main)
-[![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-pypackage)](https://pypi.org/project/cookiecutter-pypackage/)
-[![License](https://img.shields.io/github/license/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage)](https://img.shields.io/github/license/{{cookiecutter.author_github_handle}}/cookiecutter-pypackage)
+[![Supported Python versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue)](https://www.python.org/downloads/)
 
 This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 repository to generate the file structure for a Python project that uses
@@ -68,4 +65,4 @@ To finalize the set-up for publishing to PyPi, see [here](./features/publishing.
 This project is partially based on [Audrey
 Feldroy's](https://github.com/audreyfeldroy) great
 [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) and [
-Florian Maas](https://github.com/fpgmaas/) great [cookiecutter-pypackage](https://github.com/fpgmaas/cookiecutter-pypackage).
+Florian Maas](https://github.com/fpgmaas/) great [cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).
