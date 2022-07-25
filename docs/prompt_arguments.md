@@ -69,9 +69,4 @@ compatibility with multiple versions of Python.
 
 `"y"` or `"n"`. Adds a simple [Dockerfile](https://docker.com).
 
-**open_source_license**
-
-Choose a [license](https://choosealicense.com/). Options:
-    `["1. MIT License", "2. BSD license", "3. ISC license",  "4. Apache Software License 2.0", "5. GNU General Public License v3", "6. Not open source"]`
-
 ---
